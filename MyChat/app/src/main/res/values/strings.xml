@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyChat</string>
+    <string name="title_activity_signle_fragment">SignleFragmentActivity</string>
+    <string name="title_activity_base_activty">BaseActivty</string>
+    <string name="chat">聊天</string>
+    <string name="contacts">通讯录</string>
+    <string name="me">我</string>
+</resources>

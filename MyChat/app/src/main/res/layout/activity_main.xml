@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_main_height"
+        android:background="@color/colorPrimary"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/image_person"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="消息"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/h35"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="扫一扫"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <include layout="@layout/bottom_tab"/>
+    <!--<RadioGroup-->
+        <!--android:id="@+id/rg"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="@color/main_style"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/rb1"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:button="@null"-->
+            <!--android:checked="false"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingTop="5dp"-->
+            <!--android:text="消息"-->
+            <!--android:textSize="12sp" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/rb2"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:button="@null"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingTop="5dp"-->
+            <!--android:text="联系人"-->
+            <!--android:textSize="12sp" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/rb3"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:button="@null"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingTop="5dp"-->
+            <!--android:text="我的"-->
+            <!--android:textSize="12sp" />-->
+
+    <!--</RadioGroup>-->
+</LinearLayout>
